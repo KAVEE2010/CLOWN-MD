@@ -3,25 +3,25 @@ import 'dotenv/config';
 const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.', '!', '/', '#'];
 
 const config = {
-    // Bot Identity
-    botName:     process.env.BOT_NAME      || 'MEGA-MD',
-    botOwner:    process.env.BOT_OWNER     || 'Qasim Ali',
-    ownerNumber: process.env.OWNER_NUMBER  || '923051391005',
-    author:      process.env.AUTHOR        || 'GlobalTechInfo',
-    packname:    process.env.PACKNAME      || 'MEGA-MD',
-    description: process.env.DESCRIPTION  || 'High performance multi-device WhatsApp bot',
-    version:     '6.0.0',
+    // Bot Identity - CLOWN MD 🤡
+    botName:     process.env.BOT_NAME      || 'CLOWN-MD 🤡',
+    botOwner:    process.env.BOT_OWNER     || 'KAVIDU DILAKSHANA',
+    ownerNumber: process.env.OWNER_NUMBER  || '94704296653',
+    author:      process.env.AUTHOR        || 'CLOWN-MD',
+    packname:    process.env.PACKNAME      || 'CLOWN-MD | KAVIDU',
+    description: process.env.DESCRIPTION  || 'CLOWN-MD - Powered by KAVIDU DILAKSHANA 🤡 - High performance WhatsApp bot',
+    version:     '1.0.0 CLOWN EDITION',
 
     // Bot Config
     prefixes:    _prefixes,
     prefix:      _prefixes[0],
     commandMode: process.env.COMMAND_MODE  || 'public',
-    timeZone:    process.env.TIMEZONE      || 'Asia/Karachi',
+    timeZone:    process.env.TIMEZONE      || 'Asia/Colombo',
 
-    // Links
-    channelLink:   process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
+    // Links - CLOWN MD OFFICIAL
+    channelLink:   process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029Vb8xld1AjPXQigBLWp27',
     updateZipUrl:  process.env.UPDATE_URL   || 'https://github.com/GlobalTechInfo/MEGA-MD/archive/refs/heads/main.zip',
-    ytChannel:     process.env.YT_CHANNEL   || 'GlobalTechInfo',
+    ytChannel:     process.env.YT_CHANNEL   || 'CLOWN-MD',
 
     // Session
     sessionId:     process.env.SESSION_ID      || '',
