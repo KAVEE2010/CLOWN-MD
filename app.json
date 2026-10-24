@@ -1,7 +1,7 @@
 {
-  "name": "mega-mdx",
-  "description": "High performance multi-device WhatsApp bot",
-  "keywords": ["whatsapp-bot", "baileys", "mega-md"],
+  "name": "clown-md",
+  "description": "CLOWN-MD 🤡 - High performance WhatsApp bot by KAVIDU DILAKSHANA",
+  "keywords": ["clown-md", "whatsapp-bot", "baileys", "clown-md", "kavidu-md"],
   "repository": "https://github.com/GlobalTechInfo/MEGA-MDX",
   "stack": "container",
   "env": {
@@ -11,9 +11,9 @@
       "value": ""
     },
     "OWNER_NUMBER": {
-      "description": "Your WhatsApp number with country code (e.g. 923001234567)",
+      "description": "Your WhatsApp number with country code (e.g. 94704296653)",
       "required": true,
-      "value": "923000000000"
+      "value": "94704296653"
     },
     "MONGO_URL": {
       "description": "MongoDB URL for persistent storage (recommended for Heroku)",
@@ -33,12 +33,12 @@
     "BOT_NAME": {
       "description": "Your bot name",
       "required": false,
-      "value": "MEGA-MDX"
+      "value": "CLOWN-MD 🤡"
     },
     "BOT_OWNER": {
       "description": "Owner display name",
       "required": false,
-      "value": "GlobalTech"
+      "value": "KAVIDU DILAKSHANA"
     },
     "PREFIXES": {
       "description": "Command prefixes separated by comma (e.g. .,!,/)",
@@ -48,7 +48,7 @@
     "PACKNAME": {
       "description": "Sticker pack name",
       "required": false,
-      "value": "MEGA-MD"
+      "value": "CLOWN-MD 🤡"
     },
     "COMMAND_MODE": {
       "description": "Bot mode: public or private",
@@ -56,9 +56,9 @@
       "value": "public"
     },
     "TIMEZONE": {
-      "description": "Your timezone (e.g. Asia/Karachi, America/New_York)",
+      "description": "Your timezone (e.g. Asia/Colombo)",
       "required": false,
-      "value": "Asia/Karachi"
+      "value": "Asia/Colombo"
     },
     "REMOVEBG_KEY": {
       "description": "Remove.bg API key for background removal",
